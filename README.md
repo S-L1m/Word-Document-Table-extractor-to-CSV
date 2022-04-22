@@ -1,3 +1,6 @@
-# Word.docx table reader converter to excel.xlsx file 
-Reads table from a word document (.docx), parses through pandas, saves file as an excel spreadsheet (.xlsx)
-Transforms a table from word (Long format) into 1 row in excel (Wide format)
+# Tables from Word Document to csv files
+
+To be used to extract tables from 1 or more word documents and have the tables placed in a csv file. 
+<br> There are two methods included in the Jupyter Notebook:
+1. Grab data using text slicing method
+2. Loop through docx.tables method
